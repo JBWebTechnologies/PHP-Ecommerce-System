@@ -1,0 +1,156 @@
+* {
+	margin:0;
+	padding:0;
+}
+body  {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background: #f0f0f0;
+	color: #696969;
+}
+a {
+	color:#f6b247;
+	font-size:12px;
+	text-decoration:underline;
+}
+a:hover {
+	color:#f6b247;
+	font-size:12px;
+	text-decoration:none;
+}
+.logo {
+	color:#000000;
+	font-size:48px;
+	padding:20px 0 0 20px;
+}
+.logo span {
+	color:#f6b247;	
+}
+.author {
+	padding:0 0 20px 20px;
+}
+h1 {
+	color:#f6b247;
+	font-size:18px;
+	font-weight:bold;
+}
+.mainLogo {	
+	float:left;
+}
+.icons {
+	float:right;
+	padding:40px 20px 0 0;
+}
+.icons img {
+	border:0;
+}
+#container { 
+	width: 800px;  
+	margin: 0 auto;
+} 
+.mainContent {
+	padding:5px 0;
+}
+.leftSidebar {
+	width:180px;
+	float:left;
+}
+.rightSidebar {
+	width:180px;
+	float:right;
+}
+.bodySidebar {
+	margin:0 200px;
+}
+.titleBlock {
+	background:url(images/titleBackground.jpg) repeat-x left top;
+	height:30px;
+	font-size:14px;
+	color:#ffffff;
+	font-weight:bold;
+	padding:7px 20px 0 20px;
+}
+.blockList {
+	background:#FFFFFF;
+	padding:10px 20px;
+}
+.blockList a {
+	color:#696969;
+	text-decoration:none;
+}
+.blockList li {
+	list-style:none;
+	background:url(images/p.png) no-repeat left 3px;
+	padding-left:13px;
+	margin:5px 0;
+	border-bottom:1px solid #f0f0f0;
+}
+.iphoneLinks {
+	background:#f3b046;
+	text-align:center;
+	padding:0 0 20px 0;
+}
+.iphoneLinks a {
+	color:#000000;
+	text-decoration:underline;
+	font-size:14px;
+	font-weight:bold;
+}
+.copyrights {
+	padding:20px 0;
+}
+#footer {
+	text-align:center;
+	color:#e8e8e8;
+	height:75px;
+	background:url(images/footerBackground.jpg) repeat-x left top;
+}
+#footer p {
+	padding:20px 0 0 0;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+/*MAIN MENU*/
+#navcontainer {
+	padding:20px 0 155px 0;
+}
+#navcontainer ul {
+	padding-left: 0;
+	margin-left: 0;
+	background: url(images/menuBackground.jpg) repeat-x left top;
+	color: White;
+	float: left;
+	width: 100%;
+	height:60px;
+}
+#navcontainer ul li { 
+	display: inline;
+	color:#ffffff;
+}
+#navcontainer ul li a {
+	padding:18px 29px 0 30px;
+	background: url(images/menuBackground.jpg) repeat-x left top;
+	color: #ffffff;
+	text-decoration: none;
+	float: left;
+	font-size:24px;
+}
+#navcontainer ul li a:hover {
+	background: url(images/menuActive.jpg) repeat-x left top;
+	color: #fff;
+	height:60px;
+}
+#navcontainer #active a {
+	background: url(images/menuActive.jpg) repeat-x left top;
+	color: #fff;
+	height:60px;
+}
+.menuSeparator {
+	height:60px;
+	width:2px;
+	float:left;
+}
